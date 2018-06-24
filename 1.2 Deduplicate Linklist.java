@@ -112,6 +112,7 @@ public class MyLinkList {
 		}
 	}
 	
+	//Method without using buffer
 	public void deleteDuplicates(LinkedListNode head) {
 		//Declare two LinkListNode pointers named current and runner
 		//They together will act as a nested double loop with runner functioning as inner loop
