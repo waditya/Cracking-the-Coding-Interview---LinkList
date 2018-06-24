@@ -27,7 +27,7 @@ public class Entry {
 		MyLinkList mll = new MyLinkList();
 		//mll.deleteDups(head); //Method - 1 Using hashtable
 		mll.deleteDuplicates(head);
-		//mll.printLinkList(head); 
+		mll.printLinkList(head); 
 		
 		
 	}
