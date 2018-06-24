@@ -25,9 +25,9 @@ public class Entry {
 		node.setNext(new LinkedListNode(6));
 		
 		MyLinkList mll = new MyLinkList();
-		mll.deleteDups(head);
+		//mll.deleteDups(head); //Method - 1 Using hashtable
 		mll.deleteDuplicates(head);
-		//mll.printLinkList(head); //Method - 1 Using hashtable
+		//mll.printLinkList(head); 
 		
 		
 	}
