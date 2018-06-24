@@ -111,6 +111,30 @@ public class MyLinkList {
 			n = n.next;
 		}
 	}
+	
+	public void deleteDuplicates(LinkedListNode head) {
+		//Declare two LinkListNode pointers named current and runner
+		//They together will act as a nested double loop with runner functioning as inner loop
+		
+		LinkedListNode current = head;
+				
+		//Check each element in the link list for duplicates one 
+		//by one and remove future duplicates
+		
+		while(current!= null) {
+			LinkedListNode runner = current;
+			
+			while(runner.next!=null) {
+				if (runner.next.data == current.data) {
+					runner.next = runner.next.next;
+				}
+				else {
+					runner = runner.next;
+				}
+			}
+			
+			current = current.next;
+		}
 
 }
 
