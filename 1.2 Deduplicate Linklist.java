@@ -1,3 +1,41 @@
+package Master;
+
+import BusinessLogic.LinkedListNode;
+import BusinessLogic.MyLinkList;
+
+public class Entry {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedListNode node = new LinkedListNode(2);
+		LinkedListNode head = node;
+		
+		node.setNext(new LinkedListNode(8));
+		node = node.getNext();
+		node.setNext(new LinkedListNode(3));
+		node = node.getNext();
+		node.setNext(new LinkedListNode(7));
+		node = node.getNext();
+		node.setNext(new LinkedListNode(3));
+		node = node.getNext();
+		node.setNext(new LinkedListNode(8));
+		node = node.getNext();
+		node.setNext(new LinkedListNode(4));
+		node = node.getNext();
+		node.setNext(new LinkedListNode(6));
+		
+		MyLinkList mll = new MyLinkList();
+		mll.deleteDups(head);
+		
+		mll.printLinkList(head);
+		
+	}
+	
+	
+
+}
+
+
 package BusinessLogic;
 
 public class LinkedListNode {
