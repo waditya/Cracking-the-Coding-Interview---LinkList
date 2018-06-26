@@ -1,5 +1,6 @@
 package Master;
 
+//Import libraries
 import BusinessLogic.LinkedListNode;
 import BusinessLogic.MyLinkList;
 
@@ -7,6 +8,8 @@ public class Entry {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		//Create a node and add data to it.
 		LinkedListNode node = new LinkedListNode(2);
 		LinkedListNode head = node;
 		
