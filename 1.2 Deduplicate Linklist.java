@@ -16,6 +16,7 @@ public class Entry {
 		
 		node.setNext(new LinkedListNode(8));
 		node = node.getNext();
+		//Create a new node and add it as the Next of previous node
 		node.setNext(new LinkedListNode(3));
 		node = node.getNext();
 		node.setNext(new LinkedListNode(7));
