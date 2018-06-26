@@ -1,6 +1,7 @@
 package Master;
 
 //Import libraries
+
 import BusinessLogic.LinkedListNode;
 import BusinessLogic.MyLinkList;
 
