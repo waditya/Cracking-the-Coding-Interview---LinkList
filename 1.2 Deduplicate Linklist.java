@@ -12,6 +12,7 @@ public class Entry {
 		
 		//Create a node and add data to it.
 		LinkedListNode node = new LinkedListNode(2);
+		//Declare a head node and point it to node
 		LinkedListNode head = node;
 		
 		node.setNext(new LinkedListNode(8));
