@@ -1,7 +1,6 @@
 package Master;
 
-//Import libraries.
-
+//Import libraries....
 
 import BusinessLogic.LinkedListNode;
 import BusinessLogic.MyLinkList;
@@ -33,6 +32,7 @@ public class Entry {
 		MyLinkList mll = new MyLinkList();
 		//mll.deleteDups(head); //Method - 1 Using hashtable
 		mll.deleteDuplicates(head); //Method - 2 Without using buffer or a hash table. This results in O[n^2] time complexity
+		//Print the new link list
 		mll.printLinkList(head); 
 		
 		
