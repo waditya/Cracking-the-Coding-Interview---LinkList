@@ -10,7 +10,7 @@ public class Entry {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//Create a node and add data to it.
+		//Create a node and add data to it...
 		LinkedListNode node = new LinkedListNode(2);
 		//Declare a head node and point it to node
 		LinkedListNode head = node;
