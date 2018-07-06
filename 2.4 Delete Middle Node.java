@@ -6,6 +6,7 @@ boolean deleteNode(LinkedListNode node){
   if(node  == null || node.next == null){
       return false; 
   }
+  //Copy data of next node in current node
   node.data = node.next.data;
   node.next = node.next.next;
   return true;
