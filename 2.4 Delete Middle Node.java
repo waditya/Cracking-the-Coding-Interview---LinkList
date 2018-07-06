@@ -2,6 +2,7 @@
 Written by -  Aditya Wagholikar */
 
 boolean deleteNode(LinkedListNode node){
+  //Return False if the given node is NULL or the last node
   if(node  == null || node.next == null){
       return false; 
   }
