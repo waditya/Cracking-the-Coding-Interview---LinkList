@@ -1,2 +1,2 @@
 /* Simple method -- Brute Force Algorithm*/
-/*Author - Aditya Wagholikar*/
+/*Written By - Aditya Wagholikar*/
