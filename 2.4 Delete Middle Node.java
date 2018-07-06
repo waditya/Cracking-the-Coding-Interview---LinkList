@@ -8,6 +8,7 @@ boolean deleteNode(LinkedListNode node){
   }
   //Copy data of next node in current node
   node.data = node.next.data;
+  //Copy the refernce of next node's next  to current nodes next
   node.next = node.next.next;
   return true;
 }
