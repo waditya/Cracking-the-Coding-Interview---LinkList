@@ -1,5 +1,5 @@
 /*2.4 Delete Middle Node
-Written by -  Aditya Wagholikar */
+Written by --  Aditya Wagholikar */
 
 boolean deleteNode(LinkedListNode node){
   //Return False if the given node is NULL or the last node
