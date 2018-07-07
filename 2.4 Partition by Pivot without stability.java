@@ -25,5 +25,5 @@ LinkListNode partition(LinkListNode node, int partition){
   
     /*The head has changed , so we need to 
     return it to the user*/
-  return;
+  return head;
 }
