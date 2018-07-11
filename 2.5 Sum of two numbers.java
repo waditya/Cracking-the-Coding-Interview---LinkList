@@ -2,6 +2,7 @@
 Written By - Aditya Wagholikar*/
 
 LinkedListNode addLists(LinkedListNode l1, LinkedListNode l2, int carry){
+  //Check if both the lists are null
   if(l1 == null && l2 == null & carry ==0){
     return null
   }
