@@ -4,4 +4,8 @@ boolean isPalindrome(LinkedListNode head){
 }
 
 LinkedListNode reverseAndClone(LinkedListNode node){
+    LinkedListNode head = null;
+    while(node != null){
+      
+    }
 }
