@@ -9,4 +9,8 @@ boolean isPalindrome(LinkListNode node){
   LinkListNode fastPtr = node;
   
   Stack<Integer> stack = new Stack<Integer>;
+  
+  while(node! = null && node.next!= null){
+  
+  }
 }
