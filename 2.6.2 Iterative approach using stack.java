@@ -3,10 +3,11 @@ I have used stack data structure in it
 Written by - Aditya Wagholikar*/
 
 boolean isPalindrome(LinkListNode node){
-  return true;
+  
   
   LinkListNode slowPtr = node;
   LinkListNode fastPtr = node;
+  int top;
   
   Stack<Integer> stack = new Stack<Integer>;
   
@@ -24,4 +25,15 @@ boolean isPalindrome(LinkListNode node){
   if(fastPtr != null){
     slowPtr = slowPtr.next;
   }
+  
+  //Now compare the second half of linklist (using slowPtr) with the value in stack
+  
+  while(slwoPtr != null){
+    top = stack.pop().intValue;
+    if(top != slowPtr.data){
+      return false;
+    }
+    slowPtr = slowPtr.next;
+  }
+  return true;
 }
