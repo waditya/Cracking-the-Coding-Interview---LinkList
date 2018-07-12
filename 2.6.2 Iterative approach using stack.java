@@ -7,4 +7,6 @@ boolean isPalindrome(LinkListNode node){
   
   LinkListNode slowPtr = node;
   LinkListNode fastPtr = node;
+  
+  Stack<Integer> stack = new Stack<Integer>;
 }
