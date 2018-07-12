@@ -6,6 +6,10 @@ boolean isPalindrome(LinkedListNode head){
 LinkedListNode reverseAndClone(LinkedListNode node){
     LinkedListNode head = null;
     while(node != null){
-      
+      LinkedListNode node1 = new LinkedListNode(node.value);
+      node1.next = head;
+      head = node1;
+      node = node.next;
     }
+  return head;
 }
