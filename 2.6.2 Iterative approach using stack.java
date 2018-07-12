@@ -14,5 +14,11 @@ boolean isPalindrome(LinkListNode node){
     stack.push(slowPtr.data);
     slowPtr = slowPtr.next;
     /*Move fastPtr at twice the rate so that when it reaches last node, the slowPtr is at the midpoint of linklist*/
+    
+    fastPtr= fastPtr.next.next; 
+    
   }
+  /*If link list has odd nodes, the slowPtr is at one node before the middle node and fastPtr is at the last node 
+  and not the null node after it*/
+  
 }
