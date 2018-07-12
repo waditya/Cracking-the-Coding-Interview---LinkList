@@ -19,6 +19,9 @@ boolean isPalindrome(LinkListNode node){
     
   }
   /*If link list has odd nodes, the slowPtr is at one node before the middle node and fastPtr is at the last node 
-  and not the null node after it*/
+  and not the null node after it. Move the slowPtr to the middle of the link list*/
   
+  if(fastPtr != null){
+    slowPtr = slowPtr.next;
+  }
 }
