@@ -17,3 +17,33 @@ class Result{
   public LinkedListNode node;
   public boolean result;
 }
+
+Result isPalindrome(LinkListNode head, int length){
+  //Condition  for even number of nodes
+  if(head == null || length <= 0){
+    return new Result(head, true);
+  }else if(length == 1){
+    //Condition for Odd Number of Nodes
+    return new Result(head.next, true);
+  }
+  
+  /*Recurse on sublist*/
+  
+  Result res = isPalindromeRecurse(head.next, length-2);
+  
+  /*If child calls are not palindrome, pass back a failure*/
+  
+  if(!res.result || res.node == null){
+    return res;
+  }
+  
+  /*Check if it matches corresponding node on the other side*/
+  
+  res.result = (head.data == res.node.data);
+  
+  /*Return corresponding node*/
+  
+  res.node = res.node.next;
+  
+  return res;
+}
