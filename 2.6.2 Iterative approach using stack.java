@@ -11,6 +11,8 @@ boolean isPalindrome(LinkListNode node){
   Stack<Integer> stack = new Stack<Integer>;
   
   while(node! = null && node.next!= null){
-  
+    stack.push(slowPtr.data);
+    slowPtr = slowPtr.next;
+    /*Move fastPtr at twice the rate so that when it reaches last node, the slowPtr is at the midpoint of linklist*/
   }
 }
