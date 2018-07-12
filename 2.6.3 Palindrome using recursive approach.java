@@ -12,3 +12,8 @@ int lengthOfList(LinkedListNode node){
   }
   return size;
 }
+
+class Result{
+  public LinkedListNode node;
+  public boolean result;
+}
