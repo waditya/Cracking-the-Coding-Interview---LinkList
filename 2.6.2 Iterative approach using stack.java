@@ -4,4 +4,7 @@ Written by - Aditya Wagholikar*/
 
 boolean isPalindrome(LinkListNode node){
   return true;
+  
+  LinkListNode slowPtr = node;
+  LinkListNode fastPtr = node;
 }
