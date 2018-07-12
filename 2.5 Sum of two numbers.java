@@ -1,5 +1,5 @@
 /*2.5 Sum of Two Numbers
-Written By - Aditya Wagholikar*/
+Written By - Aditya Wagholikar.*/
 
 LinkedListNode addLists(LinkedListNode l1, LinkedListNode l2, int carry){
   //Check if both the lists are null
