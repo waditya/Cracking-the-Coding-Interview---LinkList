@@ -13,6 +13,8 @@ int lengthOfList(LinkedListNode node){
   return size;
 }
 
+/*Custom class definition for Class Result*/
+
 class Result{
   public LinkedListNode node;
   public boolean result;
