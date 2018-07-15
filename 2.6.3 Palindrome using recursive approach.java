@@ -1,5 +1,5 @@
 /*Palindrome Check using Recursion
-Written By - Aditya Wagholikar*/
+Written By - Aditya Wagholikar. */
 boolean isPalindrome(LinkListNode head){
   int len = lengthOfList(head);
   Result p = isPalindromeRecurse(head, len);
