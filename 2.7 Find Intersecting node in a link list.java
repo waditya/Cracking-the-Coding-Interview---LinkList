@@ -18,4 +18,6 @@ LinkedListNode findIntersection(LinkedListNode list1, LinkedListNode list2){
     return null;
   }
   
+  /*Determine the shorter and longer linked list and assign them appropriate pointers -- shorter and longer*/
+  
 }
