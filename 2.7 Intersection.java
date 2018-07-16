@@ -6,4 +6,6 @@ LinkedListNode findIntersection(LinkedListNode list1, LinkedListNode list2){
     //If either of the list is null, return null i.e. there is no intersection
     return null;
   }
+  
+  /*Get tail and lengths of linklist*/
 }
