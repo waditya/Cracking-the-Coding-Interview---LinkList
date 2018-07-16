@@ -20,4 +20,7 @@ LinkedListNode findIntersection(LinkedListNode list1, LinkedListNode list2){
   
   /*Determine the shorter and longer linked list and assign them appropriate pointers -- shorter and longer*/
   
+  LinkedListNode shorter = result1.length < result2.length? list1:list2;
+  LinkedListNode longer = result1.length < result2.length? list2:list1;
+  
 }
