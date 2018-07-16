@@ -11,4 +11,6 @@ LinkedListNode findIntersection(LinkedListNode list1, LinkedListNode list2){
   
   Result result1 = getTailAndLength(list1);
   Result result2 = getTailAndLength(list2);
+  
+  /* If the tail nodes do not match, there is no intersection */
 }
