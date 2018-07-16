@@ -17,4 +17,5 @@ LinkedListNode findIntersection(LinkedListNode list1, LinkedListNode list2){
   if(result1.tail != result2.tail){
     return null;
   }
+  
 }
