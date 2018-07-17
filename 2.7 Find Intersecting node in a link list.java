@@ -23,4 +23,8 @@ LinkedListNode findIntersection(LinkedListNode list1, LinkedListNode list2){
   LinkedListNode shorter = result1.length < result2.length? list1:list2;
   LinkedListNode longer = result1.length < result2.length? list2:list1;
   
+  /*Increment the longer pointer by the difference of lengths*/
+  
+  longer = getKthNode(longer, Math.abs(result1.size - result2.size));
+  
 }
