@@ -53,3 +53,41 @@ class Result{
     this.length = length;
   }
 }
+
+  /*Class Definition ends*/
+    
+ 
+  /*Function to get the last node and length of linked list*/
+  
+  Result hetTailAndLength(LinkedListNode list){
+    
+    if(list == null){
+      return null;
+    } 
+    
+    int length = 1;
+    LinkedListNode current = list;
+    
+    while(current.next != null){
+      length++;
+      current = current.next;
+    }
+    
+    return new Result(current, length); //Return a new object of class Result 
+}
+
+/*Function ends*/
+
+LinkedListNode getKthNode(LinkedListNode node, int counter){
+  LinkedListNode current = node;
+  
+  while(counter > 0 && current != null){
+    current = current.next;
+    counter--;
+  }
+  
+  return current;
+}
+
+
+
