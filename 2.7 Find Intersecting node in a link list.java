@@ -39,3 +39,17 @@ LinkedListNode findIntersection(LinkedListNode list1, LinkedListNode list2){
   return shorter;
   
 }
+
+//Class definition
+
+class Result{
+  public LinkedListNode tail;
+  public int size;
+  
+  //Over-ride a default constructor
+  
+  public Result(LinkedListNode tail, int length){
+    this.tail = tail;
+    this.length = length;
+  }
+}
