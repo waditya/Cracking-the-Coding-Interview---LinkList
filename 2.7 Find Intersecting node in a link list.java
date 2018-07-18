@@ -7,7 +7,7 @@ LinkedListNode findIntersection(LinkedListNode list1, LinkedListNode list2){
     return null;
   }
   
-  /*Get tail and lengths of linklist*/
+  /*Get tail and lengths of linklist.*/
   
   Result result1 = getTailAndLength(list1);
   Result result2 = getTailAndLength(list2);
